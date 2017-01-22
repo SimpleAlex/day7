@@ -1,0 +1,76 @@
+body {
+  background: #8C9AA9;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  /*text-align: center;*/
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+#myInput {
+  background: #efefef;
+  width: 30%;
+  font-size: 1.2em;
+  padding: 12px 20px 12px 5px;
+  border: #212129 1px solid;
+  margin-bottom: 12px;
+  transition: 300ms;
+}
+#myInput:focus {
+  background: transparent;
+  transition: 300ms;
+}
+
+#myUL {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  background: #2ECC71;
+  border: #fff 2px solid;
+  margin-top: -1px;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #000;
+  display: block;
+}
+#myUL li a.header {
+  background: #212129;
+  color: #fff;
+  cursor: default;
+  transition: 300ms;
+}
+#myUL li a:hover:not(.header) {
+  background: #eee;
+  color: #000;
+  transition: 300ms;
+}
